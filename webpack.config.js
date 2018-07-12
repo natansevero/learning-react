@@ -1,5 +1,11 @@
 const webpack = require('webpack');
 
+/*
+    resolve: Serve para 'resolver' problemas com extensões de arquivos na hora de fazer
+    os imports. Com o resolve definido, não é mais necessário para qual a entensão do component
+    ao importa-lo.
+*/
+
 module.exports = {
     entry: './ex/index.jsx',
 
